@@ -1,0 +1,36 @@
+Applications Memory Usage (kB):
+Uptime: 373316472 Realtime: 834049661
+
+** MEMINFO in pid 20910 [com.example.android.miwok] **
+                   Pss  Private  Private  Swapped     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap    10778    10752        0        0    12628    12517      110
+  Dalvik Heap     9849     9824        0        0    15141    12699     2442
+ Dalvik Other     3468     3468        0        0                           
+        Stack      164      164        0        0                           
+      Gfx dev     2648     2588        0        0                           
+    Other dev        4        0        4        0                           
+     .so mmap     1152      336      148        0                           
+    .apk mmap      180        0       24        0                           
+    .ttf mmap      158        0      140        0                           
+    .dex mmap       80        0       76        0                           
+    .oat mmap     1440        0      464        0                           
+    .art mmap      857      532       52        0                           
+   Other mmap       19        4        0        0                           
+   EGL mtrack     6080     6080        0        0                           
+      Unknown      156      156        0        0                           
+        TOTAL    37033    33904      908        0    27769    25216     2552
+ 
+ Objects
+               Views:       71         ViewRootImpl:        2
+         AppContexts:        4           Activities:        2
+              Assets:        2        AssetManagers:        2
+       Local Binders:       14        Proxy Binders:       17
+       Parcel memory:        3         Parcel count:       12
+    Death Recipients:        0      OpenSSL Sockets:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 
